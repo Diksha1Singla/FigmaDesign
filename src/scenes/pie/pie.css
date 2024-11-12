@@ -1,0 +1,76 @@
+/* Diksha (Web Dev) */
+
+/* position: relative;
+width: 1512px;
+height: 982px;
+
+background: #FFFFFF;
+border-radius: 30px; */
+.tools-container {
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .tools-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .accordion-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .accordion-title:hover {
+    color: #645af2;
+  }
+  
+  .accordion-content {
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .sessions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .sessions-table th,
+  .sessions-table td {
+    text-align: left;
+    padding: 0.5rem;
+  }
+  
+  .sessions-table th {
+    font-weight: bold;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .sessions-table td {
+    font-size: 0.9rem;
+  }
+  
+  .progress-bar {
+    height: 8px;
+    border-radius: 4px;
+    background-color: #ddd;
+  }
+  

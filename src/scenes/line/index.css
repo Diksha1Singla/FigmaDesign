@@ -1,0 +1,226 @@
+.LineNavbar{
+    display: flex;
+}
+.navbarLogo{
+    display: flex;
+    color: #74aef5;
+}
+.navbarLogo h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.navbar {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+  
+.nav-item {
+    margin: 0 10px;
+    position: relative;
+    cursor: pointer;
+}
+  
+.dropdown:hover::after {
+    content: '▾';
+    margin-left: 5px;
+}
+  
+
+.notification-badge {
+    background-color: red;
+    color: white;
+    font-size: 0.7rem;
+    border-radius: 50%;
+    padding: 2px 6px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+  
+  /* Deposit button */
+.deposit-button {
+    background-color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+  
+.icon {
+    font-size: 1.2rem;
+}
+
+.fullscreen-icon {
+    font-size: 1rem;
+}
+.tdrow{
+    padding: 3px 18px 3px 0; 
+}
+.trHead th{
+    font-size: 20px;
+    font-weight: normal;
+}
+.costrate{
+    color: rgb(26, 179, 107);
+}
+.container{
+    display: flex;
+}
+.row {
+    display: flex;
+    margin-left: 1vw;    
+}
+.row h2{
+    padding-right:4vw ;
+    color: rgb(240, 174, 89);
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.supplier-table {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align:center;
+    padding-left: 1vw;
+}
+
+.supplier-table th {
+    font-size: 16px;
+    font-weight: normal;
+    color: #aaa;
+}
+
+.heading{
+    margin-left: 2vw;
+    padding-left: 4vw;
+}
+
+.supplier-table td {
+    /* margin: 0; */
+    font-size: 14px;
+}
+
+.supplier-table .code-cell {
+    color: red;
+    text-align: center;
+}
+
+
+
+.Part3 input{
+    background-color: #aaaaaa42;
+    border:none;
+    border-radius: 0.3rem;
+    height: 6vh;
+    /* display: flex; */
+    width: 20vw;
+    margin: 0.5rem;
+    font-size: 20px;
+    color: #fff;
+}
+
+.Part3 input::placeholder{
+    text-align: right;
+    font-weight: 400;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 1rem;
+    margin-right: 3rem;
+}
+
+
+.PSPCL{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 0.3rem;
+    height: 9vh;
+    width: 20vw;
+}
+.inputConatiner{
+    display: flex;
+}
+
+.placeholderLeft,
+.placeholderRight{
+    position: absolute;
+    top: 0.0;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 14px;
+}
+
+.placeholderLeft1,
+.placeholderRight1{
+    position: absolute;
+    top: 0.0;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 14px;
+}
+
+.placeholderLeft{
+    left: 53.5vw;
+}
+
+.placeholderRight{
+    top:97.5vh;
+    right: 5.5vw;
+    font-weight: 400;
+    color: #fff;
+}
+.placeholderLeft1{
+    top:99.5vh;
+    left: 74.5vw;
+}
+
+.placeholderRight1{
+    top:98.5vh;
+    right: 5.5vw;
+    font-weight: 400;
+    color: #fff;
+}
+.cost{
+    top:99.5vh;
+}
+.power{
+    top: 107.5vh;
+}
+.total{
+    top:123.5vh;
+}
+.LeftPart .placeholderRight{
+    right: 27vw;
+}
+
+.LeftPart .placeholderLeft1{
+    color: #999;
+}
+
+button{
+    width: 310px;
+    height: 50px;
+}
+
+.Buy{
+    border-radius: 0.3rem;
+    font-size: 24px;
+    background-color:rgb(26, 179, 107) ;
+}
+
+.Sell{
+    border-radius: 0.3rem;
+    font-size: 24px;
+    background-color:rgba(238, 86, 81, 0.932);
+}
